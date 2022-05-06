@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  kmWordle
+
+  Created by Harold Marash on 4/28/22.
+  
+*/
+"kwordle" = "Katheryn's Wordle";
+"selectPlayer" = "Select Playa";
+"newGame" = "New Game";
+

@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		2BC427E2281B33BE002AC304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC427E1281B33BE002AC304 /* AppDelegate.swift */; };
 		2BC427E4281B33BE002AC304 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC427E3281B33BE002AC304 /* SceneDelegate.swift */; };
-		2BC427E6281B33BE002AC304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC427E5281B33BE002AC304 /* ViewController.swift */; };
+		2BC427E6281B33BE002AC304 /* OpeningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC427E5281B33BE002AC304 /* OpeningScreen.swift */; };
 		2BC427E9281B33BE002AC304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC427E7281B33BE002AC304 /* Main.storyboard */; };
 		2BC427EB281B33C0002AC304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC427EA281B33C0002AC304 /* Assets.xcassets */; };
 		2BC427EE281B33C0002AC304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC427EC281B33C0002AC304 /* LaunchScreen.storyboard */; };
 		2BC427F9281B33C0002AC304 /* kmWordleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC427F8281B33C0002AC304 /* kmWordleTests.swift */; };
 		2BC42803281B33C0002AC304 /* kmWordleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42802281B33C0002AC304 /* kmWordleUITests.swift */; };
 		2BC42805281B33C0002AC304 /* kmWordleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42804281B33C0002AC304 /* kmWordleUITestsLaunchTests.swift */; };
+		2BC42812281B4E1C002AC304 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BC42811281B4E1C002AC304 /* Localizable.strings */; };
+		2BC4281A281C7758002AC304 /* NewGamePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42819281C7758002AC304 /* NewGamePopup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		2BC427DE281B33BE002AC304 /* kmWordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kmWordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC427E1281B33BE002AC304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BC427E3281B33BE002AC304 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2BC427E5281B33BE002AC304 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BC427E5281B33BE002AC304 /* OpeningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScreen.swift; sourceTree = "<group>"; };
 		2BC427E8281B33BE002AC304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BC427EA281B33C0002AC304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BC427ED281B33C0002AC304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,9 @@
 		2BC427FE281B33C0002AC304 /* kmWordleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kmWordleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC42802281B33C0002AC304 /* kmWordleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kmWordleUITests.swift; sourceTree = "<group>"; };
 		2BC42804281B33C0002AC304 /* kmWordleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kmWordleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2BC42811281B4E1C002AC304 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2BC42814281B5500002AC304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		2BC42819281C7758002AC304 /* NewGamePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewGamePopup.swift; path = kmWordle/Controller/NewGamePopup.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +104,13 @@
 		2BC427E0281B33BE002AC304 /* kmWordle */ = {
 			isa = PBXGroup;
 			children = (
-				2BC427E1281B33BE002AC304 /* AppDelegate.swift */,
 				2BC427E3281B33BE002AC304 /* SceneDelegate.swift */,
-				2BC427E5281B33BE002AC304 /* ViewController.swift */,
-				2BC427E7281B33BE002AC304 /* Main.storyboard */,
+				2BC4281F2824A92D002AC304 /* View */,
+				2BC4281E2824A920002AC304 /* Controller */,
+				2BC4281D2824A8FD002AC304 /* Model */,
+				2BC427E1281B33BE002AC304 /* AppDelegate.swift */,
 				2BC427EA281B33C0002AC304 /* Assets.xcassets */,
-				2BC427EC281B33C0002AC304 /* LaunchScreen.storyboard */,
+				2BC42811281B4E1C002AC304 /* Localizable.strings */,
 				2BC427EF281B33C0002AC304 /* Info.plist */,
 			);
 			path = kmWordle;
@@ -125,6 +131,31 @@
 				2BC42804281B33C0002AC304 /* kmWordleUITestsLaunchTests.swift */,
 			);
 			path = kmWordleUITests;
+			sourceTree = "<group>";
+		};
+		2BC4281D2824A8FD002AC304 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BC4281E2824A920002AC304 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BC42819281C7758002AC304 /* NewGamePopup.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2BC4281F2824A92D002AC304 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BC427EC281B33C0002AC304 /* LaunchScreen.storyboard */,
+				2BC427E7281B33BE002AC304 /* Main.storyboard */,
+				2BC427E5281B33BE002AC304 /* OpeningScreen.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BC427EE281B33C0002AC304 /* LaunchScreen.storyboard in Resources */,
+				2BC42812281B4E1C002AC304 /* Localizable.strings in Resources */,
 				2BC427EB281B33C0002AC304 /* Assets.xcassets in Resources */,
 				2BC427E9281B33BE002AC304 /* Main.storyboard in Resources */,
 			);
@@ -258,8 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BC427E6281B33BE002AC304 /* ViewController.swift in Sources */,
+				2BC427E6281B33BE002AC304 /* OpeningScreen.swift in Sources */,
 				2BC427E2281B33BE002AC304 /* AppDelegate.swift in Sources */,
+				2BC4281A281C7758002AC304 /* NewGamePopup.swift in Sources */,
 				2BC427E4281B33BE002AC304 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +334,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2BC427E8281B33BE002AC304 /* Base */,
+				2BC42814281B5500002AC304 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -441,8 +475,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = kmWordle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,8 +504,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = kmWordle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

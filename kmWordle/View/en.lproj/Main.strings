@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; configuration.title = "New Game"; ObjectID = "AC6-Ud-Z4R"; */
+"AC6-Ud-Z4R.configuration.title" = "New Game";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AC6-Ud-Z4R"; */
+"AC6-Ud-Z4R.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Settings"; ObjectID = "CCN-li-xET"; */
+"CCN-li-xET.configuration.title" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CCN-li-xET"; */
+"CCN-li-xET.normalTitle" = "Button";
+
+/* Class = "UICommand"; title = "Item 2"; ObjectID = "EBV-5u-sTJ"; */
+"EBV-5u-sTJ.title" = "Item 2";
+
+/* Class = "UIButton"; configuration.title = "Stats"; ObjectID = "VU0-BE-lyg"; */
+"VU0-BE-lyg.configuration.title" = "Stats";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VU0-BE-lyg"; */
+"VU0-BE-lyg.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Katheryn's Wordle  "; ObjectID = "bGT-sk-4fy"; */
+"bGT-sk-4fy.text" = "Katheryn's Wordle  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hev-IG-lPS"; */
+"hev-IG-lPS.normalTitle" = "Button";
+
+/* Class = "UICommand"; title = "Item 1"; ObjectID = "q6P-7W-c00"; */
+"q6P-7W-c00.title" = "Item 1";
+
+/* Class = "UILabel"; text = "Select Player"; ObjectID = "w9c-oc-tHS"; */
+"w9c-oc-tHS.text" = "Select Player";
