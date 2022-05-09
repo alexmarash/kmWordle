@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B45EB662829A1E300C3DBD3 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B45EB652829A1E300C3DBD3 /* Shape.swift */; };
 		2BC427E2281B33BE002AC304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC427E1281B33BE002AC304 /* AppDelegate.swift */; };
 		2BC427E4281B33BE002AC304 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC427E3281B33BE002AC304 /* SceneDelegate.swift */; };
 		2BC427E6281B33BE002AC304 /* OpeningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC427E5281B33BE002AC304 /* OpeningScreen.swift */; };
@@ -18,6 +19,8 @@
 		2BC42805281B33C0002AC304 /* kmWordleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42804281B33C0002AC304 /* kmWordleUITestsLaunchTests.swift */; };
 		2BC42812281B4E1C002AC304 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BC42811281B4E1C002AC304 /* Localizable.strings */; };
 		2BC4281A281C7758002AC304 /* NewGamePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42819281C7758002AC304 /* NewGamePopup.swift */; };
+		2BC428212825A24E002AC304 /* TableEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC428202825A24E002AC304 /* TableEntry.swift */; };
+		2BC428232825A3A2002AC304 /* LetterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC428222825A3A2002AC304 /* LetterState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B45EB652829A1E300C3DBD3 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		2BC427DE281B33BE002AC304 /* kmWordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kmWordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC427E1281B33BE002AC304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BC427E3281B33BE002AC304 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		2BC42811281B4E1C002AC304 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		2BC42814281B5500002AC304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		2BC42819281C7758002AC304 /* NewGamePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewGamePopup.swift; path = kmWordle/Controller/NewGamePopup.swift; sourceTree = SOURCE_ROOT; };
+		2BC428202825A24E002AC304 /* TableEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableEntry.swift; sourceTree = "<group>"; };
+		2BC428222825A3A2002AC304 /* LetterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,9 @@
 		2BC4281D2824A8FD002AC304 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2BC428202825A24E002AC304 /* TableEntry.swift */,
+				2BC428222825A3A2002AC304 /* LetterState.swift */,
+				2B45EB652829A1E300C3DBD3 /* Shape.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -291,9 +300,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BC427E6281B33BE002AC304 /* OpeningScreen.swift in Sources */,
+				2BC428232825A3A2002AC304 /* LetterState.swift in Sources */,
 				2BC427E2281B33BE002AC304 /* AppDelegate.swift in Sources */,
+				2B45EB662829A1E300C3DBD3 /* Shape.swift in Sources */,
 				2BC4281A281C7758002AC304 /* NewGamePopup.swift in Sources */,
 				2BC427E4281B33BE002AC304 /* SceneDelegate.swift in Sources */,
+				2BC428212825A24E002AC304 /* TableEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
